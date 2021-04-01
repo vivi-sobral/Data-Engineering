@@ -118,7 +118,7 @@ Parameters:
                                               log_song_df_time.sessionId.alias("session_id"), 
                                               log_song_df_time.location.alias("location"), 
                                               log_song_df_time.userAgent.alias("user_agent"),
-                                              log_song_df_time.yaer.alias("year"),
+                                              log_song_df_time.year.alias("year"),
                                               log_song_df_time.month.alias("month"))
     
     # write songplays table to parquet files partitioned by year and month
